@@ -4,6 +4,7 @@
   "description": "talawa-api is a backend repository written using Node.js and graphql for generating APIs for the talawa flutter app.",
   "main": "index.js",
   "scripts": {
+    "docs": "npx spectaql config.yml -t docs",
     "test": "jest",
     "start": "cross-env pm2-runtime start index.js --watch",
     "prod": "cross-env NODE_ENV=production pm2-runtime start index.js",
@@ -69,6 +70,7 @@
     "eslint-plugin-jest": "^24.2.1",
     "eslint-plugin-prettier": "^3.3.1",
     "netmask": ">=2.0.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "spectaql": "^0.11.0"
   }
 }

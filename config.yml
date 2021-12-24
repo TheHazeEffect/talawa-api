@@ -1,0 +1,27 @@
+spectaql:
+  logoFile: ./image/talawa-logo-lite-200x200.png
+
+introspection:
+  url: 'http://localhost:4000/graphql'
+ 
+
+info:
+  title: Talawa API
+  description:
+    "Talawa Api is the the base of all the functionalities offered to Users and Organizations 
+    that sign up at talawa. The Graph API we use is the direct path to get data into and out of 
+    the **Talawa-API** platform. It's an HTTP-based API that any client can utilise to 
+    programmatically read, create and update data. The Graph API is composed of nodes, 
+    edges, and fields. Typically you use nodes to get data about a specific object, 
+    use edges to get collections of objects on a single object, and use fields to get 
+    data about a single object or each object in a collection. 
+    You can check the current production version of our server from the following get request below:"
+  contact:
+    name: Palisados Foundation
+    url: https://stepzen.com/docs
+    email: support@stepzen.com
+
+servers:
+  - url: 'localhost:3000'
+    description: Production
+    production: true
